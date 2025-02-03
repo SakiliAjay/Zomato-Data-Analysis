@@ -7,9 +7,7 @@
 ## Project Structure
 
 ### 1. Importing Libraries
-pandas is used for data manipulation and analysis
-numpy is used for numerical operations
-matplotlib.pyplot and seaborn are used for data visualisation
+pandas is used for data manipulation and analysis, numpy is used for numerical operations ,matplotlib.pyplot and seaborn are used for data visualisation
 
 ```
 import pandas as pd
