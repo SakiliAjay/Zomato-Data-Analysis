@@ -50,7 +50,7 @@ dataframe.head()
 sns.countplot(x=dataframe['listed_in(type)'])
 plt.xlabel("type of restaurant")
 ```
-  **Conclusion: Majority of the restaurant falls in DINING category**
+  **Answer: Majority of the restaurant falls in DINING category**
   
 
 2. **How many votes has each type of restaurant received from customers ?**
@@ -62,7 +62,7 @@ plt.plot(result, c = "green", marker = "o")
 plt.xlabel("Type of restaurant", c = "red", size = 20)
 plt.ylabel("Votes", c = "red", size = 20)
 ```
-  **Conclusion: DINING restaurant has recieved maximum votes**
+  **Answer: DINING restaurant has recieved maximum votes**
   
 
 3. **What are the ratings that the majority of restaurants have received ?**
@@ -72,7 +72,7 @@ plt.hist(dataframe['rate'],bins = 4)
 plt.title("ratings distribution")
 plt.show()
 ```
-  **Conclusion: The majority restaurants recieved ratings from 3.5 to 4**
+  **Answer: The majority restaurants recieved ratings from 3.5 to 4**
   
 
 4. **Zomato has observed that most couples order most of their food online. What is the average spending on each other ?**
@@ -81,7 +81,7 @@ dataframe.head()
 couple_data = dataframe['approx_cost(for two people)']
 sns.countplot(x = couple_data)
 ```
-**Conclusion: The majority of Couples prefer restaurants with an approximate cost of 300 RS.**
+**Answer: The majority of Couples prefer restaurants with an approximate cost of 300 RS.**
 
 5. **Which mode (online or offline) has received the maximum rating ?**
 ```
@@ -89,7 +89,7 @@ dataframe.head()
 plt.figure(figsize = (6,6))
 sns.boxplot(x = 'online_order', y = 'rate', data = dataframe)
 ```
-**Conclusion: Offline order recieved Lower ratings Compared to Online order.**
+**Answer: Offline order recieved Lower ratings Compared to Online order.**
 
 6. **Which type of Restaurant recieved more offline orders, So that Zomato can provide customers with some good offers**
 ```
@@ -101,7 +101,7 @@ plt.xlabel("Online Order")
 plt.ylabel("Listed in (Type)")
 plt.show()
 ```
-**Conclusion: DINING restaurants primarily accept Offline orders. Whereas CAFES primarily receive Online orders.**
+**Answer: DINING restaurants primarily accept Offline orders. Whereas CAFES primarily receive Online orders.**
 
 ## Author - SAKILI AJAY
 This project is part of my portfolio
