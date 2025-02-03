@@ -24,6 +24,7 @@ print(dataframe)
 ```
 
 ### 3.Convert the data type of column - rate
+The values in rate column are as (for example 4.1/5) so we have to remove the /5 so we will get only the rating i.e a float value 
 
 ```
 def handleRate(value):
